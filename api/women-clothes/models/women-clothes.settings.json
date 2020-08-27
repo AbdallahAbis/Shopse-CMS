@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "women_clothes",
+  "info": {
+    "name": "womenClothes"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "price": {
+      "type": "decimal",
+      "required": true
+    },
+    "available": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "thumbnail": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "other": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

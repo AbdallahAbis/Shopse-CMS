@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/women-accessories",
+      "handler": "women-accessories.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/women-accessories/count",
+      "handler": "women-accessories.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/women-accessories/:id",
+      "handler": "women-accessories.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/women-accessories",
+      "handler": "women-accessories.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/women-accessories/:id",
+      "handler": "women-accessories.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/women-accessories/:id",
+      "handler": "women-accessories.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

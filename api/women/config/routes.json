@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/women",
+      "handler": "women.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/women",
+      "handler": "women.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/women",
+      "handler": "women.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

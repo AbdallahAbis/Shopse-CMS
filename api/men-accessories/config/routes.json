@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/men-accessories",
+      "handler": "men-accessories.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/men-accessories/count",
+      "handler": "men-accessories.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/men-accessories/:id",
+      "handler": "men-accessories.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/men-accessories",
+      "handler": "men-accessories.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/men-accessories/:id",
+      "handler": "men-accessories.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/men-accessories/:id",
+      "handler": "men-accessories.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

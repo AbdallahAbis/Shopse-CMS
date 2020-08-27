@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "men",
+  "info": {
+    "name": "men"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "men_clothes": {
+      "collection": "men-clothes"
+    },
+    "men_shoes": {
+      "collection": "men-shoes"
+    },
+    "men_accessories": {
+      "collection": "men-accessories"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/men-clothes",
+      "handler": "men-clothes.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/men-clothes/count",
+      "handler": "men-clothes.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/men-clothes/:id",
+      "handler": "men-clothes.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/men-clothes",
+      "handler": "men-clothes.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/men-clothes/:id",
+      "handler": "men-clothes.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/men-clothes/:id",
+      "handler": "men-clothes.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

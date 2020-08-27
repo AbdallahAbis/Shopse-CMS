@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "women",
+  "info": {
+    "name": "women"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "women_clothes": {
+      "collection": "women-clothes"
+    },
+    "women_accessories": {
+      "collection": "women-accessories"
+    },
+    "women_shoes": {
+      "collection": "women-shoes"
+    }
+  }
+}
